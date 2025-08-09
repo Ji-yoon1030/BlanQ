@@ -1,0 +1,45 @@
+/* === 전체 컨테이너 === */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f1ee;
+  font-family: 'Noto Serif KR', serif;
+  overflow: hidden;
+}
+
+/* === 로고 텍스트 === */
+.logo {
+  position: absolute;
+  top: 142px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* === 부제목 === */
+.subtitle {
+  position: absolute;
+  top: 382px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 35px;
+  color: #444;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* === 하단 버튼 영역 === */
+.buttonWrapper {
+  position: absolute;
+  top: 825px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* === 강조 색상 (Q 등) === */
+.highlight {
+  color: #000;
+}
